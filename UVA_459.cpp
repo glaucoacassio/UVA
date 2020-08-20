@@ -1,3 +1,9 @@
+/*
+O número máximo de nós é 26. (De A a Z).
+O gráfico sempre será numerado de 0 a 26 0 <= nós <27
+Eu brinco com o valor ASCII para obter o valor do nó. ou seja, 'A' - 65 = 0, 'B' - 65 = 1, 'C' - 65 = 2…. e assim por diante.
+Imprima uma linha em branco entre os casos. O último caso não precisa da linha em branco.
+*/
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -49,10 +55,10 @@ void readGraph()
     {
         if (edge.size() == 0)
             break;
-        node1 = edge[0];
-        node2 = edge[1];
-        AdjList[node1-'A'].push_back(ii(node2-'A', 0));
-        AdjList[node2-'A'].push_back(ii(node1-'A', 0));
+        node1 = edge[0] - 65;//A -> Codigo Ascii 65
+        node2 = edge[1] - 65;
+        AdjList[node1].push_back(ii(node2, 0));//(vizinho, peso)
+        AdjList[node2].push_back(ii(node1, 0));
     }
 }
 
