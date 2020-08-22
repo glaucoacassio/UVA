@@ -19,7 +19,7 @@ long long contaDigitosFatorial(int n)
     if (n <= 1)
         return 1;
 
-    // Use formula de Kamenetsky pra calculatar
+    // Usei a formula de Kamenetsky pra calculatar
     // o numero de digitos
     double x = ((n * log10(n / M_E) + log10(2 * M_PI * n) / 2.0));
 
