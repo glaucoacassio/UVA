@@ -4,7 +4,7 @@ to determine the number of digits in the factorial of the number.
 
 Input
 Input consists of several lines of integer numbers. The first line contains an integer n, which is the
-number of cases to be tested, followed by n lines, one integer 1 ≤ n ≤ 107 on each line.
+number of cases to be tested, followed by n lines, one integer 1 ≤ n ≤ 10^7 on each line.
 
 Output
 The output contains the number of digits in the factorial of the integers appearing in the input.
