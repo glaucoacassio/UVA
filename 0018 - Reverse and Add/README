@@ -29,12 +29,12 @@ You might assume that all tests data on this problem:
 • will yield a palindrome that is not greater than 4,294,967,295.
 
 Input
-The first line will have a number N (0 < N ≤ 100) with the number of test cases, the next N lines will
+The first line will have a number N (0 < N ≤ 100) with the number of test cases, the next N lines will 
 have a number P to compute its palindrome.
 
 Output
-For each of the N tests you will have to write a line with the following data : minimumnumberofiterations(additions)togettothepalindrome
-and theresultingpalindromeitself separated by one space.
+For each of the N tests you will have to write a line with the following data : minimum number of iterations(additions) 
+to get to the palindrome and the resulting palindrome itself separated by one space.
 
 Sample Input
 3
