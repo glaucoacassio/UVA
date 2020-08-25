@@ -32,8 +32,7 @@ int main(int argc, char **argv)
 		freopen("in.txt", "r", stdin);
 		freopen("out.txt", "w", stdout);
 	#endif
-	int s, a, b, E, V;
-	bool esBipartido;
+	int V, E, a, b;
 
 	while (cin >> V && V)
 	{
