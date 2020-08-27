@@ -1,0 +1,24 @@
+A palindrome is a string that reads the same from the left as it does from the right. 
+For example, I, GAG and MADAM are palindromes, but ADAM is not. 
+Here, we consider also the empty string as a palindrome.
+From any non-palindromic string, you can always take away some letters, and get a palindromic subsequence. 
+For example, given the string ADAM, you remove the letter M and get a palindrome ADA.
+Write a program to determine the length of the longest palindrome you can get from a string.
+
+Input
+The first line of input contains an integer T (≤ 60). Each of the next T lines is a string, whose length
+is always less than 1000.
+For ≥ 90% of the test cases, string length ≤ 255.
+
+Output
+For each input string, your program should print the length of the longest palindrome you can get by
+removing zero or more characters from it.
+
+Sample Input
+2
+ADAM
+MADAM
+
+Sample Output
+3
+5
