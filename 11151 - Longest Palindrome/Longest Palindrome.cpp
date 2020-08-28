@@ -21,7 +21,7 @@
 using namespace std;
 
 string s;
-int len, dp[1005][1005];
+int tc, len, dp[1005][1005];
 
 int longestPalin(int l, int r)
 {
@@ -45,11 +45,9 @@ int longestPalin(int l, int r)
 
 int main()
 {
-	int t;
-
-	cin >> t;
+	cin >> tc;
 	cin.ignore();
-	while (t--)
+	while (tc--)
 	{
 		getline(cin, s);
 		len = s.length();
