@@ -41,8 +41,8 @@ int main()
 	
 	while(cin >> s, s != "#")
 	{	
-      if(next_permutation(s.begin(), s.end())) cout << s << endl;
-      else cout << "No Successor" << endl;
+	      if(next_permutation(s.begin(), s.end())) cout << s << endl;
+	      else cout << "No Successor" << endl;
 	}
 	return 0;
 }
