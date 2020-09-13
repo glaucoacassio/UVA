@@ -39,6 +39,7 @@ int main()
         if (ok && pilha.empty()) printf("Yes\n");
         else printf("No\n");
 
+        //Esvazio a pilha em caso de nao ta ok...
         while (!pilha.empty())
                 pilha.pop();
     }
