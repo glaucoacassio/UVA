@@ -2,7 +2,7 @@
 Dicas:
 O número máximo de nós é 26. (De A a Z).
 O gráfico sempre será numerado de 0 a 26 0 <= nós <27
-Eu brinco com o valor ASCII para obter o valor do nó. ou seja, 'A' - 65 = 0, 'B' - 65 = 1, 'C' - 65 = 2…. e assim por diante.
+Eu brinco com o valor ASCII para obter o valor do nó, ou seja, 'A' - 65 = 0, 'B' - 65 = 1, 'C' - 65 = 2… e assim por diante.
 Imprima uma linha em branco entre os casos. O último caso não precisa da linha em branco.
 */
 #include <iostream>
